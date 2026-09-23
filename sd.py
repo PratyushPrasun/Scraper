@@ -12,7 +12,7 @@ load_dotenv()
 sys.stdout.reconfigure(encoding="utf-8")
 console = Console(force_terminal=True)
 
-URL = "https://bff-gateway.zepto.com/cfs/api/v1/cart/coupons/fetch-list"
+URL = os.environ.get("ZEPTO_API_URL")
 
 REQUIRED_ENV = [
     "ZEPTO_COOKIE", "ZEPTO_CART_ID", "ZEPTO_STORE_ID",
