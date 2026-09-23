@@ -1,0 +1,34 @@
+# Environment variables & secrets (CRITICAL - DO NOT COMMIT)
+.env
+.env.*
+!.env.example
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Generated runtime output & logs
+debug_response.json
+*.log
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
